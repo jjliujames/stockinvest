@@ -1,5 +1,5 @@
 body {
-  background-image: url("./imag/black1.jpg");
+  background-image: url("black1.jpg");
   font-family: "Courier New", Courier, monospace;
   color: white;
   /* Full height */
@@ -23,9 +23,10 @@ main {
 }
 
 h1 {
-  margin: 5px auto;
-  background-color: rgba(75, 181, 167, 50%);
-  padding: 2% 30.1%;
+  margin: 5px 50px;
+  background-color: rgba(75, 181, 167, 40%);
+  padding: 2% 20.1%;
+  border-radius: 10px;
 }
 
 #New {
@@ -83,4 +84,13 @@ h1 {
   left: 0px;
   bottom: 0px;
   margin-left: 5px;
+}
+
+#subscribe-email-form {
+  color:black;
+}
+
+.Highlight {
+  color:brown;
+  font-weight: bold;
 }
